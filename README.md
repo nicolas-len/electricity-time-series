@@ -8,9 +8,6 @@
 
 Forecast electricity consumption for a single target day (96 points at 15-minute frequency) using historical electricity demand and temperature data.
 
-Author: Nikolai Len  
-Data ScienceTech Institute, 2025
-
 Language: R
 
 ## Repository Overview
@@ -20,7 +17,22 @@ Language: R
 - `electricity-time-series.Rmd`: source analysis report.
 - `electricity-time-series.pdf`: final cleaned PDF report.
 - `consumption_15min_train.xlsx`: input dataset.
-- `*.rds`: pretrained forecasting models.
+- `output.xlsx`: best-model forecast output (96 predicted values).
+- `models/`: pretrained forecasting models (`.rds` files).
+
+## Models Used
+
+- Holt-Winters (default and finetuned).
+- ARIMA family: Auto-ARIMA, manual ARIMA, and manual ARIMA with temperature (`xreg`).
+- TSLM with temperature as external regressor.
+- NNAR variants: temperature only, temperature + daytime features, and finetuned NNAR.
+- Tree-based models: Random Forest and XGBoost.
+
+## Spoiler: Best Model
+
+- Best result in the report is **Manual ARIMA with temperature regressor** (`ARIMA(0,1,9)(1,1,1)[96] + temp`).
+- Reported test RMSE: **8.066566**.
+- Forecast output from the selected final model is in `output.xlsx`.
 
 ## Notes
 
