@@ -2329,3 +2329,7 @@ write.xlsx(
 Nikolai Len
 
 👤 [LinkedIn](https://www.linkedin.com/in/niklen/)
+
+## Code Repository
+
+Repository: [electricity-time-series](https://github.com/nikolailen/electricity-time-series)
