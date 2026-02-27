@@ -1,6 +1,6 @@
 Electricity Consumption Forecasting for a Single Day (15-Minute Intervals)
 
-Author: Nikolai Len
+Author: [Nicolas Len](https://www.linkedin.com/in/niclen/)
 
 Data ScienceTech Institute, 2025
 
@@ -2326,10 +2326,8 @@ write.xlsx(
 
 ## Contact
 
-Nikolai Len
-
-👤 [LinkedIn](https://www.linkedin.com/in/niklen/)
+[Nicolas Len](https://www.linkedin.com/in/niclen/)
 
 ## Code Repository
 
-Repository: [electricity-time-series](https://github.com/nikolailen/electricity-time-series)
+Repository: [electricity-time-series](https://github.com/nicolas-len/electricity-time-series)

@@ -1,7 +1,7 @@
 ---
 title: "Electricity Consumption Forecasting for a Single Day (15-Minute Intervals)"
 author:
-  - "Nikolai Len"
+  - "Nicolas Len"
   - "Data ScienceTech Institute, 2025"
 output:
   pdf_document:

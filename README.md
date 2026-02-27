@@ -2,9 +2,9 @@
 
 📄 [PDF Report](./electricity-time-series.pdf)
 
-🌐 [Project page](https://nikolailen.github.io/electricity-time-series/)
+🌐 [Project page](https://nicolas-len.github.io/electricity-time-series/)
 
-👤 Project contact: [Nikolai Len](https://www.linkedin.com/in/niklen/)
+👤 Project contact: [Nicolas Len](https://www.linkedin.com/in/niclen/)
 
 Forecast electricity consumption for a single target day (96 points at 15-minute frequency) using historical electricity demand and temperature data.
 
